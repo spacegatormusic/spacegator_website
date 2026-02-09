@@ -1160,4 +1160,14 @@ textarea {
   .show-types {
     grid-template-columns: 1fr 1fr;
   }
+
+  .carousel-container {
+    height: 300px;
+    padding: 0 var(--spacing-md);
+  }
+
+  .carousel-button {
+    width: 35px;
+    height: 35px;
+  }
 }
