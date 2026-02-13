@@ -737,6 +737,17 @@ p {
   transform: scale(1.1);
 }
 
+/* Modifier for images that should be fully contained/visible */
+.show-card-image.show-card-image--contain {
+  height: auto;
+  aspect-ratio: auto;
+}
+
+.show-card-image.show-card-image--contain img {
+  height: auto;
+  object-fit: contain;
+}
+
 .show-meta {
   display: flex;
   align-items: center;
